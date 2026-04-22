@@ -1,0 +1,94 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navbar {
+    display: flex;
+    min-width: 100%;
+    background-color: yellow;
+    margin-top: -0.5%;
+    margin-left: -0.5%;
+    margin-right: -0.4%;
+    top: 0;
+    height: 50px;
+}
+
+nav {
+    background-color: yellow;
+}
+
+nav ul {
+    list-style-type: none;
+    font-weight: bold;
+}
+
+nav li {
+    cursor: pointer;
+    display: inline-block;
+    margin: 12px;
+    margin-top: 0px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.header {
+    text-align: center;
+}
+
+.header p {
+    font-size: 20px;
+}
+
+.send {
+    font-weight: bold;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input {
+    border: black 2px solid;
+    border-radius: 5px;
+    font-size: 17px;
+}
+
+.message {
+    min-height: 300px;
+}
+
+.virtual {
+    text-align: center;
+}
+
+.virtual p {
+    font-size: 20px;
+}
+
+.schedule {
+    font-weight: bold;
+}
+
+.media {
+    text-align: center;
+}
+
+.media p {
+    font-size: 20px;
+}
+
+.dm {
+    font-weight: bold;
+}
+
+button {
+    background-color: yellow;
+    border: black 2px solid;
+    border-radius: 5px;
+    font-size: 17px;
+}
